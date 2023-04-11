@@ -1,123 +1,142 @@
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p align="center">
-<img width="60" height="68" alt="EverShop Logo" src="https://evershop.io/img/logo.png"/>
-</p>
-<p align="center">
-  <h1 align="center">EverShop</h1>
-</p>
-<h4 align="center">
-    <a href="https://evershop.io/docs/development/getting-started/introduction">Documentation</a> |
-    <a href="https://demo.evershop.io/">Demo</a>
-</h4>
+# Aviato By Themefisher
 
-<p align="center">
-  <img src="https://github.com/nodeonline/nodejscart/actions/workflows/build.yml/badge.svg" alt="Github Action">
-  <a href="https://twitter.com/evershopjs">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/evershopjs?style=social">
-  </a>
-  <a href="https://discord.gg/GSzt7dt7RM">
-    <img src="https://img.shields.io/discord/757179260417867879?label=discord" alt="Discord">
-  </a>
-  <a href="https://opensource.org/licenses/GPL-3.0">
-    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
-  </a>
-</p>
+Aviato is the ultimate e-commerce front-end solution based on Bootstrap 3. Along with styling all default components of popular framework it introduces lots of new flexible elements you can use across the website. In total 25+ components.
 
-## Introduction
+<!-- demo -->
+## Example Site
 
-EverShop is a GraphQL Based and React ecommerce platform with essential commerce features. Built with React, modular and fully customizable.
+| [![](screenshots/home.jpg)](https://demo.themefisher.com/aviato/) | [![](screenshots/about.jpg)](https://demo.themefisher.com/aviato/about.html) | [![](screenshots/pricing.jpg)](https://demo.themefisher.com/aviato/pricing.html) | [![](screenshots/contact.jpg)](https://demo.themefisher.com/aviato/contact.html) |
+|:---:|:---:|:---:|:---:|
+| **Home**  | **About**  | **Pricing** | **Contact** |
+| [![](screenshots/shop.jpg)](https://demo.themefisher.com/aviato/shop.html) | [![](screenshots/single-product.jpg)](https://demo.themefisher.com/aviato/product-single.html) | [![](screenshots/cart.jpg)](https://demo.themefisher.com/aviato/cart.html) | [![](screenshots/checkout.jpg)](https://demo.themefisher.com/aviato/checkout.html) |
+| **Shop**  | **Single Product**  | **Cart** | **Checkout** |
+| [![](screenshots/dashboard.jpg)](https://demo.themefisher.com/aviato/dashboard.html) | [![](screenshots/orders.jpg)](https://demo.themefisher.com/aviato/order.html) | [![](screenshots/payment.jpg)](https://demo.themefisher.com/aviato/address.html) | [![](screenshots/faq.jpg)](https://demo.themefisher.com/themefisher/aviato/faq.html) |
+| **Dashboard**  | **Orders**  | **Payment** | **FAQ** |
+| [![](screenshots/blogrs.jpg)](https://demo.themefisher.com/aviato/blog-right-sidebar.html) | [![](screenshots/blogls.jpg)](https://demo.themefisher.com/aviato/blog-left-sidebar.html) | [![](screenshots/blogg.jpg)](https://demo.themefisher.com/aviato/blog-grid.html) | [![](screenshots/blogd.jpg)](https://demo.themefisher.com/aviato/blog-full-width.html) |
+| **Blog Right Sidebar**  | **Blog Left Sidebar**  | **Blog Grid** | **Blog Full Width** |
 
-## Features
-- Catalog management
-  - Product management
-  - Category management
-  - Attribute and attribute group
-  - Variant management
-  - Custom options
-  - Product layered navigation
-- Order management
-- Customer management
-  - Customer group
-  - Customer address
-  - Login, register and my account
-- Advanced coupon management
-- Online payment methods
-  - Stripe
-  - Paypal
+👉🏻[View Live Preview](https://demo.themefisher.com/aviato/)
 
-## Demo
+<!-- resources -->
+## Pages
 
-Explore our demo store.
+* **Home**
+* **About**
+* **Pricing**
+* **Shop**
+* **Shop Sidebar**
+* **Product Single**
+* **Profile Details**
+* **Dashboard**
+* **Address**
+* **Cart**
+* **Empty Cart**
+* **Checkout**
+* **Order Confirmation**
+* **Purchase Confirmation**
+* **Payment Confirmation**
+* **FAQ**
+* **Blog Grid**
+* **Blog Full Width**
+* **Blog Left Sidebar**
+* **Blog Right Sidebar**
+* **Blog Single**
+* **Contact**
+* **404**
+* **Coming Soon**
+* **Login**
+* **Signup**
+* **Forget Password**
+* **Alerts**
+* **Buttons**
+* **typography**
 
-<p align="center">
-<img alt="EverShop Admin Demo" width="950" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-backend-demo.png"/>
-</p>
-<p align="center">
-  <a href="https://demo.evershop.io/admin" target="_blank">
-    <img alt="evershop-backend-demo" height="35" alt="EverShop Admin Demo" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-admin-demo.png"/>
-  </a>
-</p>
-<b>Demo user:</b>
+<!-- download -->
+## Download And installation
 
-Email: demo@gmail.com<br/>
-Password: 123456
-<p align="center">
-<img alt="EverShop Store Demo" width="950" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-product-detail.png"/>
-</p>
-<p align="center">
-  <a href="https://demo.evershop.io/" target="_blank">
-    <img alt="evershop-store-demo" height="35" alt="EverShop Store Demo" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-store-front-demo.png"/>
-  </a>
-</p>
+Download this template from [Github](https://github.com/themefisher/aviato/archive/main.zip)
 
-## Quick Start
+<!-- installation -->
+### Basic Usages
 
-You can get started with EverShop in minutes by running the following command:
+After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
 
-```bash
-npx create-evershop-app my-app --playAround
+### Advanced Usage
+
+For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+
+#### Install prerequisites (once for a machine)
+
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
+* **Gulp Installation:** Install gulp globally from your terminal
+
+```
+npm install --global gulp-cli
 ```
 
-- [Installation guide](https://evershop.io/docs/development/getting-started/installation-guide).
+Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
-- [Extension development](https://evershop.io/docs/development/module/create-your-first-extension).
+#### Local setup
 
-- [Theme development](https://evershop.io/docs/development/theme/theme-overview).
+After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
+* Install dependencies
 
+```
+npm install
+```
 
-## Support
+* Run locally
 
-If you like my work, feel free to:
+```
+npm run dev
+```
 
-- ⭐ this repository. It helps.
-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about EverShop. Please accept my gratitude.
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
 
-[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
-### Ask a question about EverShop
+#### Production Build
 
-You can ask questions, and participate in discussions about EverShop-related topics in the EverShop Discord channel.
+After finishing all the customization, you can create a production build by running this command.
 
-<a href="https://discord.gg/GSzt7dt7RM"><img src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/discord_banner_github.svg" /></a>
+```
+npm run build
+```
 
-### Create a bug report
+Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
 
-If you see an error message or run into an issue, please [create bug report](https://github.com/evershopcommerce/evershop/issues/new). This effort is valued and it will help all EverShop users.
+👉🏻 [visit documentation](https://docs.themefisher.com/aviato/)
 
+<!-- reporting issue -->
+## Reporting Issues
 
-### Submit a feature request
+We use GitHub Issues as the official bug tracker for the Aviato Template. Please Search [existing issues](https://github.com/themefisher/aviato/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/aviato/issues).
 
-If you have an idea, or you're missing a capability that would make development easier and more robust, please [Submit feature request](https://github.com/evershopcommerce/evershop/issues/new).
+<!-- support -->
+## Technical Support or Questions (Paid)
 
-If a similar feature request already exists, don't forget to leave a "+1".
-If you add some more information such as your thoughts and vision about the feature, your comments will be embraced warmly :)
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
 
-## Contributing
-
-EverShop is an open-source project. We are committed to a fully transparent development process and appreciate highly any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as part of the EverShop community.
-
-Please refer to our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
-
+<!-- licence -->
 ## License
 
-[GPL-3.0 License](https://github.com/evershopcommerce/evershop/blob/main/LICENSE)
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/aviato/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+
+<!-- resources -->
+## Resources
+
+Some third-party plugins that we used to build this template. Please check their license.
+
+* **Bootstrap v3.3.7**: <https://getbootstrap.com/docs/3.3/getting-started/>
+* **Jquery**: <https://jquery.com/download/>
+* **Google Fonts**: <http://fonts.google.com/>
+* **Slick**: <https://kenwheeler.github.io/slick/>
+* **Ekko Lightbox**: <https://ashleydw.github.io/lightbox/>
+* **Bootstrap TouchSpin**: <http://www.virtuosoft.eu/code/bootstrap-touchspin/>
+* **Instafeed**: <https://github.com/stevenschobert/instafeed.js>
+* **Smooth Scroll**: <http://github.com/cferdinandi/smooth-scroll>
+* **SyoTimer**: <http://syomochkin.xyz/folio/syotimer/demo.html>
